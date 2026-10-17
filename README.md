@@ -4,7 +4,8 @@ Structures, analysis scripts and data accompanying the carbon validation figure.
 Includes MACE-MP-0b3, MACE-MH-1, MACE-OMat and ORB-v3, with five runs each for
 pure-carbon and OH-containing structures.
 
-- Model directories: structures grouped by composition and run.
+- `structures/<model>/<pure|OH>/run_<1–5>/`: atomic structures.
+  The additional snapshot used for the structure image is in `render_structure/`.
 - `analysis_scripts/`: `rings.py`, `pdf.py` and `psd.py`, each providing a
   calculation function returning numerical arrays. Rings and PSD accept ASE Atoms;
   PDF accepts a structure filename.
